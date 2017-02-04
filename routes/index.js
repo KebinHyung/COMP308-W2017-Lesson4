@@ -9,14 +9,25 @@ let router = express.Router();
 router.get('/', (req, res, next) => {
 
   res.render('index', { 
-    title: 'Express',
-    date: currentDate 
+    title: 'Home',
   });
 });
 
 /* GET about page. */
 router.get('/about', (req, res, next) => {
-  res.render('about', { title: 'About' });
+  res.render('index', { title: 'About' });
+});
+/* GET products page. */
+router.get('/projects', (req, res, next) => {
+  res.render('index', { title: 'Projects' });
+});
+/* GET Services page. */
+router.get('/services', (req, res, next) => {
+  res.render('index', { title: 'Services' });
+});
+/* GET Contact page. */
+router.get('/contact', (req, res, next) => {
+  res.render('index', { title: 'Contact' });
 });
 
 module.exports = router;

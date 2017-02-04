@@ -1,0 +1,39 @@
+{
+  "name": "comp308-w2017-lesson3b-master",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.5.2",
+    "express": "~4.14.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  },
+  "engines": {
+    "node": ">=6.0.0",
+    "npm" : ">=3.5.0"
+  },
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KebinHyung/COMP308-W2017-Lesson03.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS",
+    "EJS"
+  ],
+  "author": "Kevin Luu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KebinHyung/COMP308-W2017-Lesson03/issues"
+  },
+  "homepage": "https://github.com/KebinHyung/COMP308-W2017-Lesson03#readme",
+  "description": ""
+}

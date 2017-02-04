@@ -1,6 +1,6 @@
 {
-  "name": "comp308-w2017-lesson3b-master",
-  "description": "",
+  "name": "comp308-w2017-lesson4b",
+  "description": "Intro to mongoDB",
   "main": "server.js",
   "authors": [
     "Kevin Luu"
@@ -11,7 +11,7 @@
     "ExpressJS",
     "EJS"
   ],
-  "homepage": "https://github.com/KebinHyung/COMP308-W2017-Lesson03",
+  "homepage": "https://github.com/KebinHyung/COMP308-W2017-Lesson4",
   "private": true,
   "ignore": [
     "**/.*",

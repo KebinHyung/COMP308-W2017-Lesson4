@@ -1,5 +1,5 @@
 {
-  "name": "comp308-w2017-lesson3b-master",
+  "name": "comp308-w2017-lesson4b-master",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -22,7 +22,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KebinHyung/COMP308-W2017-Lesson03.git"
+    "url": "git+https://github.com/KebinHyung/COMP308-W2017-Lesson4.git"
   },
   "keywords": [
     "NodeJS",
@@ -32,8 +32,8 @@
   "author": "Kevin Luu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KebinHyung/COMP308-W2017-Lesson03/issues"
+    "url": "https://github.com/KebinHyung/COMP308-W2017-Lesson4/issues"
   },
-  "homepage": "https://github.com/KebinHyung/COMP308-W2017-Lesson03#readme",
+  "homepage": "https://github.com/KebinHyung/COMP308-W2017-Lesson4#readme",
   "description": ""
 }

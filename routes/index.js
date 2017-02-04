@@ -8,26 +8,26 @@ let router = express.Router();
 /* GET home page. */
 router.get('/', (req, res, next) => {
 
-  res.render('index', { 
+  res.render('content/index', { 
     title: 'Home',
   });
 });
 
 /* GET about page. */
 router.get('/about', (req, res, next) => {
-  res.render('index', { title: 'About' });
+  res.render('content/about', { title: 'About' });
 });
-/* GET products page. */
+/* GET projects page. */
 router.get('/projects', (req, res, next) => {
-  res.render('index', { title: 'Projects' });
+  res.render('content/projects', { title: 'Projects' });
 });
 /* GET Services page. */
 router.get('/services', (req, res, next) => {
-  res.render('index', { title: 'Services' });
+  res.render('content/services', { title: 'Services' });
 });
 /* GET Contact page. */
 router.get('/contact', (req, res, next) => {
-  res.render('index', { title: 'Contact' });
+  res.render('content/contact', { title: 'Contact' });
 });
 
 module.exports = router;

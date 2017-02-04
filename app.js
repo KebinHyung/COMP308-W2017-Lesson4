@@ -21,6 +21,21 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+//import "mongoose"
+let mongoose = require("mongoose");
+
+//URI
+//let URI = "mongodb://localhost/videogames";
+let URI = "mongodb://kevin:123456@ds031591.mlab.com:31591/videogames";
+mongoose.connect(URI,(err)=> {
+  if(err) {
+    console.log("Error connecting to MongoDB Server: " + err);
+  }
+  else {
+    console.log("Connected to MongoDB");
+  }
+})
+
 app.use('/', index);
 
 // catch 404 and forward to error handler
